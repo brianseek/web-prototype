@@ -2,8 +2,8 @@
     {% for post in site.posts limit:3 %}
     <div class="card">
         <div class="card-body icon">
-            <a href="{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/{{ post.feat-img }}"></a>
-            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/{{ post.feat-img }}"></a>
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             <p class="card-text">{{ post.date | date: "%B %-d, %Y"}}</p>
         </div>
         <div class="card-footer">
