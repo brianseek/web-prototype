@@ -2,8 +2,8 @@
     {% for post in site.case-studies %}
     <div class="card">
         <div class="card-body icon">
-            <a href="{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/case-studies/{{ post.feat-img }}"></a>
-            <h3><a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/case-studies/{{ post.feat-img }}"></a>
+            <h3><a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
             <p>{{ post.agency }}</p>
         </div>
         <div class="card-footer">
