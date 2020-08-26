@@ -65,7 +65,7 @@ layout: wrapper
             {% endfor %}
             {% if sameTagCount >= minCommonTags %}
             <div>
-                <h3><a href="{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                 <p class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</p>
             </div>
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
@@ -74,7 +74,7 @@ layout: wrapper
             {% endif %}
             {% endif %}
             {% endfor %}
-            <p><a href="{ site.baseurl }}/news">News</a></p>
+            <p><a href="{{ site.baseurl }}/news">News</a></p>
         </div>
     </div>
 </div>
