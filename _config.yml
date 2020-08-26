@@ -38,7 +38,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-repo: https://github.com/civicactions/civicactions.github.io/
+repo: https://github.com/civicactions/web-prototype/
 branch: master
 
 feed:
