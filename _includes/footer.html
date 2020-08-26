@@ -68,7 +68,7 @@
                     <h2>About</h3>
                         <ul>
                             {% for item in site.data.about.docs %}
-                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
                             {% endfor %}
                         </ul>
                 </div>
@@ -76,7 +76,7 @@
                     <h2>Work</h3>
                         <ul>
                             {% for item in site.data.work.docs %}
-                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
                             {% endfor %}
                         </ul>
                 </div>
@@ -84,7 +84,7 @@
                     <h2>Etc</h3>
                         <ul>
                             {% for item in site.data.etc.docs %}
-                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
                             {% endfor %}
                         </ul>
                 </div>
