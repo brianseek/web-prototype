@@ -3,7 +3,7 @@ layout: wrapper
 ---
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ site.url}}/guide{{ item.url }}">Digital Government Services Guide</a></li>
+        <li class="breadcrumb-item"><a href="{{ site.baseurl}}/guide{{ item.url }}">Digital Government Services Guide</a></li>
     </ol>
 </nav>
 <div class="container-fluid guide">
@@ -48,4 +48,4 @@ layout: wrapper
         </div>
     </div>
 </div>
-<script src="{{ base.url | prepend: site.url }}/js/guide-heading.js"></script>
+<script src="{{ base.url | prepend: site.baseurl }}/js/guide-heading.js"></script>

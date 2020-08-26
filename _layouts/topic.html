@@ -87,7 +87,7 @@ layout: default
                     {% for page in people %}
                     <div class="card">
                         <div class="card-body">
-                            <a href="{{ page.url }}" class="stretched-link"><img class="" src="{{ site.url }}/img/people/{{ page.image }}" alt="{{ page.name }}"></a>
+                            <a href="{{ page.url }}" class="stretched-link"><img class="" src="{{ site.baseurl }}/img/people/{{ page.image }}" alt="{{ page.name }}"></a>
                             <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
                             <p>{{ page.location }}</p>
                         </div>

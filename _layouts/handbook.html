@@ -3,7 +3,7 @@ layout: wrapper
 ---
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ site.url}}/handbook{{ item.url }}">Handbook</a></li>
+        <li class="breadcrumb-item"><a href="{{ site.baseurl}}/handbook{{ item.url }}">Handbook</a></li>
     </ol>
 </nav>
 <div class="container-fluid handbook section">
@@ -48,4 +48,4 @@ layout: wrapper
         </div>
     </div>
 </div>
-<script src="{{ base.url | prepend: site.url }}/js/handbook-heading.js"></script>
+<script src="{{ base.url | prepend: site.baseurl }}/js/handbook-heading.js"></script>
