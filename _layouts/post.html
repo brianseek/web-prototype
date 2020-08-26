@@ -53,7 +53,7 @@ layout: wrapper
             {% if author_data.content.size > 1 %}
             <div class="post-bio">
                 <p class="text-muted byline">
-                    {{ author_data.shortbio }} <a href="{{ author_data.url }}">About {{ author_data.name }}.</a>
+                    {{ author_data.shortbio }} <a href="{{ site.baseurl }}{{ author_data.url }}">About {{ author_data.name }}.</a>
                 </p>
             </div>
             {% endif %}
