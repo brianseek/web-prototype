@@ -2,7 +2,7 @@
     {% for author in site.people %}
     <div class="card">
         <div class="card-body">
-            <a href="{{ author.url }}" class="stretched-link"><img class="" src="{{ site.baseurl }}/img/people/{{ author.image }}" alt="{{ author.name }}"></a>
+            <a href="{{ site.baseurl }}{{ author.url }}" class="stretched-link"><img class="" src="{{ site.baseurl }}/img/people/{{ author.image }}" alt="{{ author.name }}"></a>
             <h3 class="card-title"><a href="{{ author.url }}">{{ author.name }}</a></h3>
             <p class="card-text">{{ author.role }}</p>
         </div>
