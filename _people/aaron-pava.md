@@ -9,7 +9,7 @@ image: aaron-pava.jpg
 audio: 'audio/aaron-pava.mp3'
 pronunciation: 'air-un pah-va'
 manager: 1
-role: Don't know. Don't care.
+role: 80,000 ft.
 categories:
   - User Experience
 location: San Mateo, Alajuela, Costa Rica
