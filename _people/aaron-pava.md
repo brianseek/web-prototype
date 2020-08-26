@@ -20,29 +20,7 @@ github: https://github.com/aaronpava
 gitlab: 
 drupal: https://www.drupal.org/u/aaronpava
 speakerdeck: https://speakerdeck.com/aaronpava
-website: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/aaronpava/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/aaronpava
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/aaronpava
-  }
-  - {
-  name: Twitter,
-  url: https://twitter.com/pava
-  }
-  - {
-  name: Speakerdeck,
-  url: https://speakerdeck.com/aaronpava
-  }
-  
+website:   
 specialties: [ "Distributed Team Culture",
 Federal Procurement,
 Free and Open Source Software,
