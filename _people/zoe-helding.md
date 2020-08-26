@@ -15,19 +15,6 @@ quote: I’m interested in the systems and mechanisms that shape peoples’ live
 gitlab: zhelding
 github: zhelding
 linkedin: https://www.linkedin.com/in/zhelding/
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/zhelding/
-  }
-  - {
-  name: GitHub,
-  url: https://github.com/zhelding/
-  }
-  - {
-  name: GitLab,
-  url: https://gitlab.com/zoe.helding
-  }
 specialties: [ "Full-Stack Development",
 Cloud Architecture,
 Finding the Root Cause,

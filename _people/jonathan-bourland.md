@@ -11,15 +11,6 @@ categories:
  - Engineering
 location: Ferndale, MI
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/jonathan-bourland-6896334/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/jonbot
-   }
 specialties: [ "Drupal",
 React,
 Entrepreneurship,

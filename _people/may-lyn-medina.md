@@ -11,11 +11,6 @@ image: may-lyn-medina.jpg
 role: Administrative Support
 location: Bacolod City, Philippines
 quote: Move with purpose, live with meaning
-social:
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/maylynmedina/
-  }
 specialties: [ "Accounting",
 Microfinance Loans,
 Invoicing,

@@ -12,15 +12,6 @@ categories:
  - DevOps
 location: San Mateo, California
 quote: Open source is inspiring to me because it allows people to build and improve together on something that’s useful to the public.
-social:
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/cornellio/
-  }
-  - {
-  name: GitHub,
-  url: https://github.com/Cornellio/
-  }
 specialties: [ "Infrastructure as Code",
 Deployment Automation,
 Linux,

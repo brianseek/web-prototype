@@ -12,11 +12,6 @@ categories:
   - Education Services
 location: Bowie, Maryland
 quote: Expressing gratitude and making time for mindfulness is crucial to our growth as humans.
-social: 
-  - {
-  name: LinkedIn,
-  https://www.linkedin.com/in/chiantilomax/
-  }
 specialties: [ "Training and Development",
 Change Management,
 Positive Psychology,

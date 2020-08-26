@@ -12,11 +12,6 @@ categories:
  - User Experience
 location: Atlanta, Georgia
 quote: I believe that everyone has a story. A valid one. One that should be considered, valued, respected, and most importantly … designed for.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/shade-bakare-17677959/
-  }
 specialties: [ "Inclusive Research & Design",
 Visual Storytelling,
 Radical Empathy,

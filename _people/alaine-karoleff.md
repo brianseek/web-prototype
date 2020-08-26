@@ -10,19 +10,6 @@ manager: 1
 role: Management & Operations
 location: Los Angeles, California
 quote: Team diversity means I can be unique in myself, but also fit in with the team.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/akaroleff/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/akaroleff
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/akaroleff
-   }
 specialties: [ "Agile & DevOps",
 Project Management,
 Team-to-Client Relations,

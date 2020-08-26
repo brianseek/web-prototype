@@ -9,11 +9,6 @@ image: susie-bird.jpg
 role: Business Development
 location: Antelope, California
 quote: "Adopt the pace of nature: her secret is patience. (Ralph Waldo Emerson)"
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/susannabird/
-  }
 specialties: [ "Capture Management",
 Client Service Excellence,
 Balance & Health,

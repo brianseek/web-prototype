@@ -10,23 +10,6 @@ image: kev-walsh.jpg
 role: Product Management
 location: The Blue Mountains, Ontario
 quote: Simple is usually better — for code, writing, design, and life in general.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/kevinjosephwalsh/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/kevwalsh
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/kevinwalsh
-  }
-  - {
-  name: Twitter,
-  url: https://twitter.com/kev_walsh
-  }
 specialties: [ "Engineering + Design",
 Content Strategy,
 Simplicity,

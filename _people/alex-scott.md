@@ -15,20 +15,6 @@ categories:
  - Engineering
 location: Toledo, Spain
 quote: I am genetically crossed with a fish from the twilight zone.
-social:
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/alex-scott-6580104/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/alexiscott
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/alexiscott
-  }
-
 specialties: [ "Javascript",
 Poetic Scansion,
 Serendipity,

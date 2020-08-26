@@ -12,19 +12,6 @@ categories:
  - Engineering
 location: Miami, Florida
 quote: 
-social:
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/julie-kramer-02481317/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/thejuliekramer
-   }
-  - {
-    name: Twitter,
-    url: https://twitter.com/thejuliekramer
-   }
 specialties: [ "Open Data & Open Source Advocacy",
 Problem Solving,
 Community Engagement,

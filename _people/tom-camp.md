@@ -11,19 +11,6 @@ categories:
  - Engineering
 location: Paonia, Colorado
 quote: Well, ‘killed the world’ might be a bit of an overstatement. I would have gone with ‘introduced entropy.’
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/tomcamppdx/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/tom-camp/
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/tomcamp
-   }
 specialties: [ "Drupal",
 Persistent Problem Solving,
 Lifelong Learning,

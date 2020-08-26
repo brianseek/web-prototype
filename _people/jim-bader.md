@@ -11,16 +11,6 @@ categories:
  - DevOps
 location: Sacramento, California
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/jimbader2007/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/jimb2850
-   }
-
 specialties: [ "DevOps",
 Systems & Networks,
 Metrics,

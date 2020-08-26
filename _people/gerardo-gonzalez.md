@@ -11,23 +11,6 @@ categories:
   - Open Data
 location: Oklahoma City, Oklahoma
 quote: Improve yourself; improve others.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/fmizzell/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/fmizzell
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/fmizzell
-  }
-  - {
-  name: Twitter,
-  url: https://twitter.com/fmizzell
-  }
 specialties: [ "Agile",
 Best Practices,
 Extreme Object-Orientation,

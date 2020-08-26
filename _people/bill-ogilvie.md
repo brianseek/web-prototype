@@ -10,11 +10,6 @@ manager: 1
 role: Business Development
 location: Washington, D.C. area
 quote: Don’t get squeezed into a waterfall — let’s keep it open and agile.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/bill-ogilvie-91b4b5/
-  }  
 specialties: [ "Strategy",
 Proposal Wrangling,
 Communicating With Government,

@@ -12,19 +12,6 @@ categories:
   - User Experience
 location: Bay Area, CA
 quote: Plain language in the government space is so critical. It’s the difference between someone getting an essential service or not.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/niradatta/
-  }
-  - {
-  name: Portfolio,
-  url: https://www.niradatta.info/
-  }
-  - {
-  name: Medium,
-  url: https://medium.com/@nira_datta
-  }
 specialties: [ "Content Design & Strategy",
 User Research,
 Plain Language,

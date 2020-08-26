@@ -11,19 +11,6 @@ categories:
   - Open Data
 location: Silver Spring, Maryland
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/daniel-gading
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/dgading
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/dgading
-  }
 specialties: [ "Drupal",
 React,
 Migrations,

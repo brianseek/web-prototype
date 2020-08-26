@@ -11,19 +11,6 @@ categories:
  - DevOps
 location: Placerville, California
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/jeff-garrett-59340670/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/JeffreyGarrett
-   }
-  - {
-  name: Medium,
-  url: https://medium.com/@jeff2invest
-  }
 specialties: [ "DevOps",
 Customer Advocacy,
 Cloud Architecture,

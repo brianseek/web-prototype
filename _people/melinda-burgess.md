@@ -12,19 +12,6 @@ pronunciation: 'muh-lin-duh bur-jes'
 role: Content Strategy
 location: Broken Arrow, Oklahoma
 quote: I appreciate a team with a solid work ethic, a culture of appreciation, and an extensive custom Slack-emoji collection.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/melinda-burgess-03250286/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/melindaburgess
-   }
-  - {
-  name: Medium,
-  url: https://medium.com/@melinda.burgess
-  }
 specialties: [ "Storytelling",
 Community Building,
 Content Strategy,

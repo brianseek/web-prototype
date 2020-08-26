@@ -12,15 +12,6 @@ categories:
  - User Experience
 location: Chicago, Illinois
 quote: Designing for accessibility makes user experience better for everyone, not just people who need it.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/gujacqueline/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/gujacq
-   }
 specialties: [ "Visual Design & Branding",
 Systems Design & Interaction,
 User Research,

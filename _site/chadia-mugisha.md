@@ -13,11 +13,6 @@ categories:
  - Project Management
 location: Boise, ID
 quote: It’s important to me to support projects that make life tangibly better for people, and CivicActions is a place I can do that.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/chadiamugisha/
-  }
 specialties: [ "Equity & Justice",
 Multilinguist,
 Getting It Done,

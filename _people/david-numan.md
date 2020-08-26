@@ -11,23 +11,6 @@ categories:
  - DevOps
 location: Hamilton, Ontario, Canada
 quote: They call me Docker Dave.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/davidnuman/
-  }
-  - {
-    name: Github,
-    url: https://github.com/davenuman
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/daven
-   }
-  - {
-  name: Twitter,
-  url: https://twitter.com/dnuman
-  }  
 specialties: [ "DevOps",
 Team support ,
 Automation,

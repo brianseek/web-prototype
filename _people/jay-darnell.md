@@ -11,20 +11,6 @@ categories:
  - Engineering
 location: Guelph, Ontario
 quote: The universe is an amazing place full of wonders waiting to be discovered.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/jaydarnell
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/JayDarnell
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/jaydarnell
-  }
- 
 specialties: [ "Drupal 7/8",
 Frontend / Backend Flexibility,
 Client Communications,

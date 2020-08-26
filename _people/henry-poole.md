@@ -20,15 +20,6 @@ categories:
  - User Experience
 location: Lafayette, California
 quote: Gain or Drain.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/henrypoole/
-  }
-  - {
-    name: Twitter,
-    url: https://twitter.com/HenryPoole
-   }
 specialties: [ "Servant Leadership",
 Open Source Software,
 Radical Curiosity & Transparency,

@@ -10,11 +10,6 @@ image: allison-conley.jpg
 role: Legal & Compliance
 location: West Hartford, Connecticut
 quote: I’m kind of famous for my chocolate chip cookies.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/allison-conley-37708aa9/
-  }
 specialties: [ "Proposal Review",
 Contract Organization,
 Attention To Detail,

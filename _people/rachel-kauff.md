@@ -10,15 +10,6 @@ image: rachel-kauff.jpg
 role: Content Strategy
 location: Los Angeles, California
 quote: The donut emoji is a reminder of the cyclical nature of cravings.
-social:
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/rachel-kauff-40b8a8140/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/rachel-kauff
-   }
 specialties: [ "Wordsmithing",
 Research,
 Emojis,

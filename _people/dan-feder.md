@@ -12,23 +12,6 @@ categories:
   - Drupal
 location: Philadelphia, Pennsylvania
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/daniel-feder-1450a915/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/dafeder
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/dafeder
-  }
-  - {
-  name: Twitter,
-  url: https://twitter.com/dafeder
-  }
 specialties: [ "Drupal",
 Open Data,
 Political Organizing,

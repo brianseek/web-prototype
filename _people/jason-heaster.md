@@ -9,11 +9,6 @@ image: jason-heaster.jpg
 role: Project Management
 location: Amherst, Massachusetts
 quote: I am the mad scientist of team chemistry.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/jasonheaster/
-  }
 specialties: [ "All Things Agile",
 Project Management,
 Team-to-Client Communication,

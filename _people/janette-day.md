@@ -11,20 +11,6 @@ categories:
   - Open Data
 location: Cottage Grove, Wisconsin
 quote: I am the invasive weed annihilator.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/janette-day-7080841/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/janette
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/jday
-  }
-
 specialties: [ "Open Data",
 Constant Learning,
 Bugs (code) & Weeds (plants),

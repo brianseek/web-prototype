@@ -11,23 +11,6 @@ categories:
  - DevOps
 location: San Francisco Bay Area, California
 quote: People are the real metrics.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/joduinn/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/joduinn
-   }
-  - {
-  name: Twitter,
-  url: https://twitter.com/joduinn
-  }
-  - {
-  name: Blog,
-  url: https://oduinn.com/
-  }
 specialties: [ "People",
 Systems,
 Digital Nomadism,

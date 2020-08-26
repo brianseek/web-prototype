@@ -11,11 +11,6 @@ categories:
  - DevOps
 location: Etowah, North Carolina
 quote: 
-social: 
-  - {
-    name: GitHub,
-    url: https://github.com/danmayol
-   }
 specialties: [ "‘OS Agnostic’ System Administration",
 Harboring a Secret Preference for Linux ,
 Automation,

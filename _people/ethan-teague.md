@@ -11,19 +11,6 @@ categories:
  - Engineering
 location: Sarasota, Florida
 quote: Pants down, then sit on the toilet.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/ethan-teague-ab377421/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/ethanteague
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/ethant
-   }
 specialties: [ "Drupal",
 DevOps,
 Node.js,

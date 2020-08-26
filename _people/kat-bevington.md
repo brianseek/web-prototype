@@ -11,15 +11,6 @@ categories:
  - User Experience
 location: Boulder, Colorado
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: http://www.linkedin.com/in/kathryn-bevington
-  }
-  - {
-  name: Twitter,
-  url: https://twitter.com/katbevington
-  }
 specialties: [ "Interaction Design",
 User Research,
 Data Visualization,

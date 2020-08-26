@@ -11,19 +11,6 @@ manager: 1
 role: Management & Operations
 location: Corvallis, Oregon
 quote: Maxims are always stated as unconditional, when in fact they shouldn’t be.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/grugnog/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/grugnog
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/owen-barton
-   } 
 specialties: [ "Problem Solving",
 Data Automation,
 Mentorship,

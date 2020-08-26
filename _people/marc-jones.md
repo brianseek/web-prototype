@@ -10,15 +10,6 @@ image: marc-jones.jpg
 role: Legal & Compliance 
 location: Bloomfield, Connecticut
 quote: If you are always working towards eliminating the need for your job, people will never stop offering you new jobs.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/marctjones/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/marctjones
-   }
 specialties: [ "FOSS Licensing",
 Getting Audited,
 Thinking It Through,

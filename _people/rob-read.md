@@ -9,15 +9,6 @@ image: robert-read.jpg
 role: Advisor
 location: Austin, Texas
 quote: To be a good programmer is difficult and noble.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/robert-read-878987/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/RobertLRead
-   }
 specialties: [ "Agile",
 Software Engineering,
 Data Science,

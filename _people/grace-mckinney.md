@@ -10,12 +10,6 @@ image: grace-mckinney.jpg
 role: Hiring
 location: Washington, DC
 quote: Good hiring practices respect the vulnerability and courage it takes for everyone who applies.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/gracemckinney/
-  }
-
 specialties: [ "Hiring",
 Recruiting for Diversity,
 Data & Processes,

@@ -13,11 +13,6 @@ categories:
  - User Experience
 location: Encinitas, California
 quote: I'm proud to be part of the remote work revolution, supporting green living, quality of life, and rural economies.
-social: 
-  - {
-  name: LinkedIn,
-  http://linkedin.com/in/shirakates
-  }
 specialties: [ "Service Design",
 Design Research,
 Content Strategy,

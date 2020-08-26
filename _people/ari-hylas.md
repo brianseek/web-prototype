@@ -15,16 +15,6 @@ categories:
  - Engineering
 location: Belen, New Mexico
 quote: The best part about working as a developer is being part of something larger than myself, which makes me feel that there’s no limit to what I can do.
-social:
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/ariella-hylas/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/arisaves
-   }
-
 specialties: [ "Drupal 8",
 Animation,
 Cross-Browser Compatibility,

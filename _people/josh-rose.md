@@ -11,19 +11,6 @@ categories:
  - Engineering
 location: Springfield, Oregon
 quote: A lot of places talk about being a 'flat' company, but at CivicActions it's real. Everyone can be a leader.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/joshua-rose-26aa0112/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/Pythagory
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/pythagory
-  }
 specialties: [ "Drupal 8",
 DevOps,
 Full-Stack Development,

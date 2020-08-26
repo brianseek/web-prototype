@@ -12,19 +12,6 @@ categories:
  - Engineering
 location: Metuchen, New Jersey
 quote: Nothing is more fun than taking an obscure set of data, cleaning it up, and making it useful in ways no one saw before.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/matthewsielski/
-  }
-  - {
-  name: GitHub,
-  url: https://github.com/msielski
-  }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/msielski
-  }
 specialties: [ "Drupal",
 Problem Solving,
 Data Wrangling,

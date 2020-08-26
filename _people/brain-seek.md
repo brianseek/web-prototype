@@ -13,15 +13,6 @@ categories:
  - Engineering
 location: Tempe, Arizona
 quote: 
-social: 
-  - {
-    name: GitHub,
-    url: https://github.com/brianseek
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/brianseek
-  }
 specialties: [ "Full Stack Development",
 Drupal 8,
 Graphic Arts,

@@ -12,27 +12,6 @@ categories:
  - Support
 location: Portland, Oregon
 quote: I still don't have a better plan than kindness.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/erogray/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/erogray/
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/erogray
-   }
-  - {
-  name: Instagram,
-  url: https://www.instagram.com/erograycollages/
-  }
-  - {
-  name: Bandcamp,
-  url: https://erogray.bandcamp.com/
-  }  
 specialties: [ "Transformative IT",
 Empathy,
 Quality Assurance,

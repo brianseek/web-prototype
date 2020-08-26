@@ -11,11 +11,6 @@ categories:
  - DevOps
 location: Sacramento, California
 quote: I love helping people, and by working with government I have the satisfaction of knowing my efforts will benefit citizens directly.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/apatil4/
-  }
 specialties: [ "DevOps",
 Automation,
 Team Awareness,

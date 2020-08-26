@@ -12,12 +12,6 @@ categories:
  - Education Services
 location: Washington, DC
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/udoewa
-  }
-
 specialties: [ "Design",
 Organizational Strategy,
 Social Impact Measurement,

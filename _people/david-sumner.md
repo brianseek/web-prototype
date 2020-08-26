@@ -11,11 +11,6 @@ categories:
  - DevOps
 location: Houston, TX
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/davidasumner/
-  }
 specialties: [ "Deployment Automation",
 Customer Support,
 All Things Linux,

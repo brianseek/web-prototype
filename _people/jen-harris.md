@@ -12,23 +12,6 @@ categories:
  - User Experience
 location: Los Angeles, California
 quote:
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/jenpharris/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/jenharris
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/jenpharris
-  }
-  - {
-  name: Instagram,
-  url: https://www.instagram.com/jenpharris/
-  }
 specialties: [ "Information Design",
 Systems Thinking,
 User Research,

@@ -11,11 +11,6 @@ categories:
  - DevOps
 location: Oakland, California
 quote: I’ve always had the mindset that it’s not about who gets first place, but it’s about personal improvement. And looking for ways to lift each other up.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://linkedin.com/in/nathandurbin/
-  }
 specialties: [ "Analysis & Debugging",
 Automation,
 Containerization As Code,

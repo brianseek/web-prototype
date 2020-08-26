@@ -13,15 +13,6 @@ categories:
 role: DevSecOps
 location: NYC, New York
 quote: When dealing with something difficult, the smart thing is to just dive right in and learn all about it.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/alan-moss-75382111/
-  }
-  - {
-  name: Web,
-  url: http://smoss.com/
-  }
 specialties: [ "Complex IT Infrastructures",
 Logic,
 Impossible Problems,

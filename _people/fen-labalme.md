@@ -11,23 +11,6 @@ categories:
  - Security & Compliance
 location: Pittsburgh, Pennsylvania
 quote: Security is never ‘done’.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/fenlabalme/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/openprivacy
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/fen
-   }
-  - {
-  name: Twitter,
-  url: https://twitter.com/openprivacy
-  }
 specialties: [ "DevSecOps",
 Compliance,
 Elegant Documentation,

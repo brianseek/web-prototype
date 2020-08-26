@@ -11,19 +11,6 @@ categories:
  - Engineering
 location: Arvada, Colorado
 quote: At CivicActions everything is done intentionally and with great purpose. We try to bring this authenticity to everyone we work with.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/andyhawks/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/andyhawks
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/andyhawks
-   }
 specialties: [ "Drupal Architecture",
 Clarity and Calmness,
 Project Whisperer,

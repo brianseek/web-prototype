@@ -11,19 +11,6 @@ categories:
  - Engineering
 location: Bristow, Virginia
 quote: Be yourself ... but adapt to those around you.
-social: 
-  - {
-  name: LinkedIn,
-  url: http://www.linkedin.com/in/kaiselafrai
-  }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/kaiselafrai
-  }
-  - {
-  name: Github,
-  url: https://github.com/kaise-lafrai
-  }
 specialties: [ "Drupal",
 Research & Testing,
 Adaptive Communication,

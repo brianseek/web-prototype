@@ -12,15 +12,6 @@ categories:
  - User Experience
 location: San Francisco, California
 quote: Design is exciting to me because it can create connections that didn’t exist before.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/stephenleetsai/
-  }
-  - {
-  name: Portfolio,
-  url: https://www.stephenleetsai.com/
-  }
 specialties: [ "Product Design",
 User Research,
 Innovation Strategy,

@@ -11,12 +11,6 @@ categories:
  - DevOps
 location: Sacramento, California
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/ashish-kumar-g-6332a514b/
-  }
-
 specialties: [ "DevOps",
 Automation,
 Agile,

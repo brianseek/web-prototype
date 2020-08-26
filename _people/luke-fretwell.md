@@ -27,23 +27,6 @@ gitlab:
 drupal: 
 speakerdeck: 
 website: https://lukefretwell.com/
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/lukefretwell
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/lukefretwell
-   }
-  - {
-  name: Twitter,
-  url: https://twitter.com/lukefretwell
-  }
-  - {
-  name: Website,
-  url: https://lukefretwell.com/
-  }
 specialties: [ "Civic Tech Startups",
 Government Open Source SaaS,
 Open Data,

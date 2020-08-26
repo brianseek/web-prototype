@@ -12,15 +12,6 @@ categories:
   - Open Data
 location: Brooklyn, New York
 quote: Working at CivicActions, I have the potential to make a big impact on social change.
-social: 
-  - {
-  name: LinkedIn,
-  url: http://linkedin.com/in/kimwdavidson
-  }
-  - {
-    name: Instagram,
-    url: https://www.instagram.com/orimaneanyc/
-   }
 specialties: [ "Open Data",
 Agile Project Management,
 Efficiency,

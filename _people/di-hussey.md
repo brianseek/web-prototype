@@ -9,11 +9,6 @@ image: di-hussey.jpg
 role: Business Development
 location: Sacramento, California
 quote:  Look up at the stars and not down at your feet. Try to make sense of what you see . . . Be curious! (Stephen Hawking)
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/diane-h-b850777/
-  }
 specialties: [ "Proposal Management",
 Gap Analysis,
 Problem Solving,

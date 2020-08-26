@@ -9,27 +9,6 @@ image: dan-gurin.jpg
 role: Engineering
 location: Asheville, North Carolina
 quote: Never do today what is better left until tomorrow.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/dangur/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/dangur
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/dangur
-  }
-  - {
-  name: Twitter,
-  url: https://twitter.com/dgurin
-  }
-  - {
-  name: SoundCloud,
-  url: https://soundcloud.com/dgurin
-  }
 specialties: [ "Full Stack Drupal",
 Product / Project Management,
 Scientific Method,

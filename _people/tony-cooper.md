@@ -9,15 +9,6 @@ image: tony-cooper.jpg
 role: Board Member
 location: Sacramento, California
 quote: Human potential is the thing that creates every great change in the world.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/tony-cooper-bb6741/
-  }
-  - {
-  name: Twitter,
-  url: https://twitter.com/thetonycooper
-  }
 specialties: [ "Human Potential",
 Strategy,
 Coaching,

@@ -10,23 +10,6 @@ image: steve-curtis.jpg
 role: Project Management
 location: Hamden, Connecticut 
 quote: We’re all essentially masters of the way we approach our own work, yet deeply accountable to each other.
-social: 
-  - {
-    name: GitHub,
-    url: https://github.com/stevecurtis
-   }
-  - {
-  name: Medium,
-  url: https://medium.com/@steve.curtis
-  }
-  - {
-  name: Instagram,
-  url: https://www.instagram.com/littlesilvermusic/
-  }
-  - {
-  name: Bandcamp,
-  url: https://littlesilver.bandcamp.com/
-  }
 specialties: [ "Agile Distributed Teams",
 Content Strategy,
 Music,

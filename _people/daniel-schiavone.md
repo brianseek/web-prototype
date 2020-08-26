@@ -11,20 +11,6 @@ categories:
  - Engineering
 location: Baltimore, Maryland
 quote: Technology is the perfect field for the curious.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/danielschiavone/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/schiavo
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/schiavone
-  }
-
 specialties: [ "Drupal Evangelism",
 Full-Stack Development,
 Entrepreneurism,

@@ -10,11 +10,6 @@ image: elizabeth-ogilvie.jpg
 role: Hiring
 location: Washington, DC Metro
 quote: It’s important for young girls to have role models who encourage them in understanding their inner strength and potential.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/elizabeth-o-597b50113/
-  }
 specialties: [ "Hiring",
 Process Management,
 Meditation,

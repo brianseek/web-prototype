@@ -11,16 +11,6 @@ categories:
  - DevOps
 location: Storrs, Connecticut
 quote: If you wish to make an apple pie from scratch, you must first invent the universe. (Carl Sagan)
-social: 
-  - {
-  name: LinkedIn,
-  url: http://www.linkedin.com/in/t-wood
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/woodt
-   }
-
 specialties: [ "Agile ",
 DevSecOps,
 Python,

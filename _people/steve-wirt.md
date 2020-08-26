@@ -12,19 +12,6 @@ categories:
  - Engineering
 location: Nokomis, Florida
 quote: If it's worth doing, it's worth doing well. If it's worth doing well, it's gotta be done with a smile.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/swirt/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/swirtSJW
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/swirt
-  }
 specialties: [ "Drupal",
 Migrations,
 Risk Mitigation,

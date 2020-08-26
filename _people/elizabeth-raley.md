@@ -11,19 +11,6 @@ manager: 1
 role: Management & Operations
 location: San Francisco Bay Area, California
 quote: I choose the bright side. 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/elizabethraley
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/elizabethraley
-   }
-  - {
-  name: Twitter,
-  url: http://twitter.com/elizabethraley
-  }
 specialties: [ "Agile",
 Empathy,
 Servant Leadership,

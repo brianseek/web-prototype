@@ -11,19 +11,6 @@ categories:
  - Engineering
 location: Cape Elizabeth, Maine
 quote: I have a book here and I'm not afraid to use it.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/eknapier/
-  }
-  - {
-    name: Github,
-    url: https://github.com/eknapier
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/ericnapier
-  }
 specialties: [ "Quality Assurance",
 Data Migration & Mapping,
 Behat,

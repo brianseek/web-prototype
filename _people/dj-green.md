@@ -13,15 +13,6 @@ categories:
  - User Experience
 location: San Antonio, Texas
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/dj-green/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/DJ-Green
-   }
 specialties: [ "Visual Design",
 User Research,
 Thinking on Paper,

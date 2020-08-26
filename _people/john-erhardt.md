@@ -11,20 +11,6 @@ categories:
  - Engineering
 location: Denver, Colorado
 quote: (The meaning of the universe is) 42!
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/john-erhardt-6830695/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/johntothee
-   }
-  - {
-  name: Drupal,
-  url: https://drupal.org/u/johne
-  }
-
 specialties: [ "Drupal 6/7/8",
 Back-End / Front-End Flexibility,
 Collaboration,

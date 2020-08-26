@@ -11,15 +11,6 @@ categories:
  - Engineering
 location: Manassas, Virginia
 quote: At CivicActions, tough conversations are encouraged and dissenting opinions are aired in an atmosphere of respect — with a willingness to understand other people’s points of view.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/irisibekwe/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/iris-i
-   }
 specialties: [ "React/JS",
 Drupal,
 Web Accessibility,

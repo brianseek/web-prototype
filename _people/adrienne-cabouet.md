@@ -16,15 +16,6 @@ twitter:
 github: 
 gitlab: 
 drupal: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/adriennecabouet/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/acabouet
-   }
 specialties: [ "Drupal 8",
 Full-Stack,
 Teamwork,

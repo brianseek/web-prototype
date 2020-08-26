@@ -12,19 +12,6 @@ categories:
 role: Engineering
 location: Los Angeles, California
 quote: There’s a kind of magic about web development. It’s thrilling to take a bunch of letters and numbers and turn them into a functional thing that can improve peoples’ lives.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/jill-lasak/
-  }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/jill-l
-  }
-  - {
-  name: Instagram,
-  url: https://www.instagram.com/jill.lasak/
-  }
 specialties: [ "Drupal 7 & 8",
 Full Stack Development,
 API Creation,

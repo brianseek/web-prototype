@@ -12,15 +12,6 @@ categories:
  - DevOps
 location: Media, Pennsylvania
 quote: If I could be an ethical hacker, I’d totally do that.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/karenbjohnson/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/kbthson
-   }
 specialties: [ "System Administration",
 DevSecOps,
 Learning,

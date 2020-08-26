@@ -11,20 +11,6 @@ categories:
  - Engineering
 location: Honeoye Falls, New York
 quote: 
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/aevumindustries
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/synterra
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/samlerner
-  }
-
 specialties: [ "Drupal",
 Site Performance,
 Multimedia Publishing,

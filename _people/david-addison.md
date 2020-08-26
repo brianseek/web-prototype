@@ -12,11 +12,6 @@ categories:
  - Project Management
 location: Ormond Beach, Florida
 quote: What is meant to be will be -- life works itself out.
-social: 
-- {
-  name: LinkedIn,
-  url: http://linkedin.com/in/david-addison-ob/
-  }
 specialties: [ "Lean/Agile",
 Servant Leadership,
 Running & Road Racing,

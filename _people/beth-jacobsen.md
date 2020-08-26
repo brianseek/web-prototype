@@ -11,19 +11,6 @@ categories:
  - Engineering
 location: New York, New York
 quote: It’s important to know that the work I’m doing day to day isn’t just for the team, but for the greater good.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/beth-jacobson-19b04b56/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/beeyayjay
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/beeyayjay
-  }
 specialties: [ "Drupal",
 Problem Solving,
 Code Migration,

@@ -12,20 +12,6 @@ categories:
  - Support
 location: Denver, Colorado
 quote: Be the Leslie Knope you wish to see in the world.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/stefaniegray/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/stefaniefgray
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/stefaniegray
-  }
-  
 specialties: [ "GIS & Data Analysis",
 Customer Support,
 Open Data,

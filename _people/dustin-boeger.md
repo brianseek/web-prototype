@@ -11,20 +11,6 @@ categories:
  - Engineering
 location: Davis, California
 quote: Get busy livin' or get busy dyin' (Shawshank Redemption)
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/dboeger/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/dboeger
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/dboeger
-  }
-
 specialties: [ "Front-end Development",
 Drupal Enthusiast,
 Community Building,

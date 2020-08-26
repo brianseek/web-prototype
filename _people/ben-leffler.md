@@ -11,11 +11,6 @@ role: User Experience
 categories:
  - User Experience
 location: Austin, Texas
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/benleffler/
-  }
 specialties: [ "Consummate Communicator",
 Creative Collaborator,
 Ardent Alliterator,

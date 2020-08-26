@@ -11,23 +11,6 @@ categories:
  - Engineering
 location: Paso Robles, California
 quote: Watching the impact CivicActions has makes it exciting to see what will happen next.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/kristianducharme/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/kducharm
-   }
-  - {
-    name: Drupal,
-    url: https://www.drupal.org/u/kducharm
-   }
-  - {
-    name: SoundCloud,
-    url: https://soundcloud.com/morekeyboards
-   }
 specialties: [ "Drupal 7/8",
 '"All the Stacks" Development',
 Problem Solving,

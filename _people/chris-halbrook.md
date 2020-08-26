@@ -10,11 +10,6 @@ image: chris-halbrook.jpg
 role: Product Management
 location: Charleston, South Carolina
 quote: I enjoy product management because it gives opportunities for solving all kinds of different problems — it never gets boring.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/chalbrook/
-  }
 specialties: [ "Product Vision & Strategy",
 Agile & Scrum,
 Problem Solving,

@@ -11,19 +11,6 @@ categories:
  - Security & Compliance
 location: Washington D.C. Metro Area
 quote: The way to stay current is by making your goals into a daily practice.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/greg-elin-b8885b4/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/gregelin
-   }
-  - {
-  name: Twitter,
-  url: https://twitter.com/GregElin
-  }
 specialties: [ "Data",
 Automation,
 Organizations,

@@ -11,20 +11,6 @@ categories:
  - Engineering
 location: Helena, Montana
 quote: There’s no reason for us to be stupid anymore.
-social: 
-  - {
-  name: LinkedIn,
-  url: https://www.linkedin.com/in/bobschmitt/
-  }
-  - {
-    name: GitHub,
-    url: https://github.com/bobschmitt-civicactions
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/trailerparkopera
-  }
-
 specialties: [ "All The Technologies (well, almost)",
 Sustainable Workflows,
 Rapid Prototyping,

@@ -12,15 +12,6 @@ categories:
  - Drupal
 location: Huntsville, Alabama
 quote:
-social: 
-  - {
-    name: GitHub,
-    url: https://github.com/cameronprince
-   }
-  - {
-  name: Drupal,
-  url: https://www.drupal.org/u/cameronprince
-  }
 specialties: [ "Drupal",
 Back-end Development,
 Tesla Trivia,
