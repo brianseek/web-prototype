@@ -1,0 +1,94 @@
+---
+layout: default
+title: Digital services that work for everyone.
+description: We help agencies improve lives through modern software and thoughtful experiences.
+excerpt: We help agencies improve lives through modern software and thoughtful experiences.
+jumbotron: home
+action: Contact us
+---
+<!--
+<div class="">
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Topics</h2>
+                <div class="card-deck">
+                    {% for page in site.topics %}
+                    {% if page.title != 'Template' %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas {{ page.icon }}"></i></span></a>
+                            <h5 class="h5"><a href="{{ page.url }}">{{ page.title }}</a></h5>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+            <p>Open, agile digital government services.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% include services.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p><a href="/services">Services</a></p>
+        </div>
+    </div>
+</div>
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Case studies</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% include case-studies.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p><a href="/case-studies">Case studies</a></p>
+        </div>
+    </div>
+</div>
+<div class="container people section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>People</h2>
+            <p>Meet the CivicActions team.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% include people-featured.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p><a href="/people">People</a></p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>News</h2>
+        </div>
+        <div class="col-md-12">
+            {% include news.html %}
+        </div>
+    </div>
+</div>

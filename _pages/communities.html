@@ -1,0 +1,25 @@
+---
+layout: default
+title: Our Communities
+description: We believe in the power of community to help transform government and the world. When people come together to share ideas and combine their talents, great things happen.
+excerpt: We believe in the power of community to help transform government and the world. When people come together to share ideas and combine their talents, great things happen.
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-deck">
+                {% for community in site.data.communities.docs %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ community.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/communities/{{ community.image }}"></a>
+                        <h3><a href="{{ site.baseurl }}{{ community.url }}">{{ community.name }}</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ community.url }}" role="button">Visit {{ community.shortname }}</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

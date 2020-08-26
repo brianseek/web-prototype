@@ -1,0 +1,156 @@
+---
+layout: default
+---
+<div class="container section">
+    <div class="row">
+        <div class="col-md-8">
+            {% if page.service_about %}
+            {% assign page-service= page.service | downcase %}
+            {% include heading-anchor.html heading=page-service prefix="About this " %}
+            {{ page.service_about | markdownify }}
+            {% endif %}
+            {% if page.prerequisites %}
+            {% include heading-anchor.html heading="Prerequisites" %}
+            {% for prerequisite in page.prerequisites %}
+            {{ prerequisite | markdownify }}
+            {% endfor %}
+            {% endif %}
+            {% if page.who %}
+            {% include heading-anchor.html heading="Who it's for" %}
+            <ul>
+                {% for item in page.who %}
+                <li>{{ item | markdownify }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.what_you_learn %}
+            {% include heading-anchor.html heading="What you learn" %}
+            <ul class="fa-ul">
+                {% for item in page.what_you_learn %}
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> {{ item | markdownify }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.format %}
+            {% include heading-anchor.html heading="Format" %}
+            <ul>
+                {% for item in page.format %}
+                <li>{{ item | markdownify }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.followup %}
+            {% include heading-anchor.html heading="Follow-up" %}
+            <ul>
+                {% for item in page.followup %}
+                <li>{{ item | markdownify }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if page.cost %}
+            {% include heading-anchor.html heading="Cost" %}
+            {{ page.cost | markdownify }}
+            {% endif %}
+            <h2>Contracting vehicles</h2>
+            <ul>
+                <li>DUNS: 022112930</li>
+                <li>CAGE Code: 65FK1</li>
+                <li>NAICS Codes: 519190, 541511, 541512, 541513, 541519</li>
+                <li>Standard Product Code: 80101507</li>
+                <li>GSA Schedule 70 #GS-35F-337BA</li>
+                <li>CMAS</li>
+                <li>UK G Cloud 10</li>
+                <li>Mississippi Agile Vendor Pool</li>
+                <li>California Agile Vendor Pool</li>
+                <li>Certified Small Business (Micro), State of California DGS, No. 2003474</li>
+                <li>Incorporated: 2004 (California)</li>
+            </ul>
+        </div>
+        <div class="col-md-4 details">
+            <div class="alert-info">
+                <h2>Topics</h2>
+                <ul class="nav nav-pills">
+                    {% for item in page.categories %}
+                    <li class="nav-item"><a href="{{ site.baseurl }}/topics/{{ item | slugify }}">{{ item }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container people">
+    <div class="row">
+        <div class="col-md-12">
+            {% assign plural = '' %}
+            {% comment %}Check if author is an array and if it is more than one to decide if plural.{% endcomment %}
+            {% if page.author.first and page.author.size > 1 %}
+            {% if page.service == 'Coaching' %}
+            {% assign plural = 'es' %}
+            {% else %}
+            {% assign plural = 's' %}
+            {% endif %}
+            {% endif %}
+            {% case page.service %}
+            {% when 'Training' %}
+            {% assign person_noun = 'Instructor' | append: plural %}
+            {% when 'Consulting' %}
+            {% assign person_noun = 'Advisor' | append: plural %}
+            {% when 'Coaching' %}
+            {% assign person_noun = 'Coach' | append: plural %}
+            {% endcase %}
+            {% include heading-anchor.html heading=person_noun %}
+        </div>
+    </div>
+    {% comment %}Loop through all of the authors of the page.{% endcomment %}
+    {% for author in page.author %}
+    {% comment %}"where" creates an array, so using "first" we can pop the first item off of the array of 1.{% endcomment %}
+    {% assign author_data = site.people | where:"author", author | first %}
+    <div class="row">
+        <div class="col-md-2">
+            <div class="people bio">
+                <a href="{{ author_data.url }}"><img src="{{ site.url }}/img/people/{{ author_data.image }}" alt="{{ author_data.name }}" title="{{ author_data.name }}"></a>
+                <p class="people-social">
+                    {% if author_data.linkedin %}
+                    <a href="{{ author_data.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                    {% endif %}
+                    {% if author_data.github %}
+                    <a href="https://github.com/{{ author_data.github }}"><i class="fab fa-github"></i></a>
+                    {% endif %}
+                    {% if author_data.twitter %}
+                    <a href="https://twitter.com/{{ author_data.twitter }}"><i class="fab fa-twitter"></i></a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <h3>{{ author_data.name }}</h3>
+            {% if author_data.content %}
+            <p>
+                {{ author_data.content }}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<div class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a class="btn btn-primary btn-lg" href="{{ page.form }}" role="button">Request {{ page.service | downcase }}</a> &nbsp; Questions? <a href="{{ site.url }}/contact">Contact us</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% include services.html %}
+        </div>
+    </div>
+</div>

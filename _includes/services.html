@@ -1,0 +1,14 @@
+<div class="card-deck">
+    {% for item in site.data.help.docs %}
+    <div class="card">
+        <div class="card-body icon">
+            {{ item.icon }}
+            <h3><a href="{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+            <p>{{ item.description }}</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="{{ item.url }}" role="button">Browse {{ item.title }}</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>

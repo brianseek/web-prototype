@@ -1,0 +1,47 @@
+docs_list_title: help
+docs:
+
+- title: User Experience
+  description: Applying human-centered design to make user friendly experiences for your customers and team.
+  icon: <i class="fas fa-grin" aria-hidden="true"></i>
+  url: /topics/user-experience
+
+- title: Open Data
+  description: Helping you comply with open data mandates, promote accessibility and use data for good.
+  icon: <i class="fas fa-chart-pie" aria-hidden="true"></i>
+  url: /topics/open-data
+
+- title: Security & Compliance
+  description: Developing systems and best practices for compliance, risk management and disaster recovery.
+  icon: <i class="fas fa-lock"></i>
+  url: /topics/security
+
+- title: Support
+  description: Providing empathetic technical support and applying user feedback to make services better.
+  icon: <i class="fas fa-life-ring"></i>
+  url: /topics/support
+
+- title: Drupal
+  description: Building fast, stable, well-designed websites and migrating content from legacy systems.
+  icon: <i class="fab fa-drupal"></i>
+  url: /topics/drupal
+
+- title: DevOps
+  description: Establishing culture, technologies, and practices that drive continuous improvement.
+  icon: <i class="fa fa-dot-circle" aria-hidden="true"></i>
+  url: /topics/devops
+
+- title: Education Services
+  description: Helping you gain digital competence with a people-first approach — agile, FOSS, Drupal, and more.
+  icon: <i class="fas fa-certificate"></i>
+  url: /topics/education-services
+
+- title: Quality Assurance
+  description: Using modern tools to continuously design and run tests for stable, sustainable systems.
+  icon: <i class="fas fa-tasks"></i>
+  url: /topics/quality-assurance
+
+- title: Innovation Lab
+  description: Doing the things that are new — from Internet of Things to bespoke solutions and beyond.
+  icon: <i class="fas fa-flask"></i>
+  url: /topics/innovation-lab

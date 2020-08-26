@@ -1,0 +1,29 @@
+docs_list_title: nav_about
+docs:
+
+- title: Contact
+  url: /contact
+
+- title: News
+  url: /news
+
+- title: People
+  url: /people
+
+- title: Careers
+  url: /careers
+
+- title: Handbook
+  url: /handbook
+
+- title: Guide
+  url: /guide
+
+- title: Talks
+  url: /talks
+  
+- title: Tools
+  url: /tools
+  
+- title: Communities
+  url: /communities

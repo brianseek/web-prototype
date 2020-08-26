@@ -1,0 +1,319 @@
+---
+layout: default
+---
+{% comment %}Gather the matching pages from coaching, consulting, and training.{% endcomment %}
+{% assign coaching-pages = site.coaching | where: "categories", page.title %}
+{% assign consulting-pages = site.consulting | where: "categories", page.title %}
+{% assign training-pages = site.training | where: "categories", page.title %}
+{% assign posts = site.posts | where: "categories", page.title %}
+{% assign help = site.help | where: "categories", page.title %}
+{% assign guide = site.guide | where: "categories", page.title %}
+{% assign handbook = site.handbook | where: "categories", page.title %}
+{% assign people = site.people | where: "categories", page.title %}
+{% assign talks = site.talks | where: "categories", page.title %}
+{% assign tools = site.data.tools.docs | where: "categories", page.title %}
+{% assign careers = site.data.careers.docs | where: "categories", page.title %}
+{% assign communities = site.data.communities.docs | where: "categories", page.title %}
+{% assign case-studies = site.case-studies | where: "categories", page.title %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h2><a href="/capabilities" class="stretched-link">Capabilities</a></h2></a>
+                        <p class="icon"><a href="/capabilities"><i class="far fa-lightbulb"></i></a></p>
+                        <p>CivicActions <a href="/capabilities">{{ page.title }} capabilities</a>.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="/capabilities" role="button">Capabilities</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2><a href="/contracting" class="stretched-link">Contracting</a></h2>
+                        <p class="icon"><a href="/contracting"><i class="fas fa-file-contract"></i></a></p>
+                        <p>CivicActions <a href="/contracting">{{ page.title }} contracting information</a>.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="/contracting" role="button">Contracting</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2><a href="/contact" class="stretched-link">Contact</a></h2>
+                        <p class="icon"><a href="/contact"><i class="fas fa-plug"></i></a></p>
+                        <p><a href="/contact">Contact CivicActions</a> for your {{ page.title }} needs.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="/capabilities" role="button">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% if case-studies != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Case Studies</h2>
+            <p>Projects featuring CivicActions {{ page.title }} services.</p>
+            <div class="card-deck">
+                {% for post in site.case-studies %}
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/case-studies/{{ post.feat-img }}"></a>
+                        <h3><a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
+                        <p>{{ post.agency }}</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if people != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="people">
+                <h2>People</h2>
+                <p>CivicActions {{ page.title }} team members.</p>
+                <div class="card-deck">
+                    {% for page in people %}
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="{{ page.url }}" class="stretched-link"><img class="" src="{{ site.url }}/img/people/{{ page.image }}" alt="{{ page.name }}"></a>
+                            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                            <p>{{ page.location }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <p><a class="btn" href="/People">People &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if careers != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Careers</h2>
+            <p>{{ page.title }} careers at CivicActions.</p>
+            <div class="card-deck">
+                {% for career in careers %}
+                <div class="card">
+                    <div class="card-body">
+                        <p class="icon"><a href="{{ site.baseurl }}{{ career.url }}" class="stretched-link"><i class="fas fa-rocket"></i></a></p>
+                        <h3><a href="{{ site.baseurl }}{{ career.url }}" class="stretched-link">{{ career.name }}</a></h3>
+                        <p>{{ career.location }}</p>
+                        <p><em>{{ career.type }}</em></p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <p><a class="btn" href="/careers">Careers &raquo;</a></p>
+        </div>
+    </div>
+</div>
+{% endif %}
+<!--
+            {% if training-pages != empty %}
+            <h2>Training</h2>
+            <div class="card-deck">
+                {% for page in training-pages %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if coaching-pages != empty %}
+            <h2>Coaching</h2>
+            <div class="card-deck">
+                {% for page in coaching-pages %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-shapes"></i></span></a>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if consulting-pages != empty %}
+            <h2>Consulting</h2>
+            <div class="card-deck">
+                {% for page in consulting-pages %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ page.url }}" class="stretched-link"><span class="icon"><i class="fas fa-certificate"></i></span></a>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="{{ page.url }}" role="button">Learn more</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        -->
+{% if talks != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Talks</h2>
+            <p>CivicActions team members share their {{ page.title }} insights.</p>
+            {% for page in talks %}
+            {{ page.video }}
+            <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+            <p><a class="btn" href="/talks">Talks &raquo;</a></p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if posts != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>News</h2>
+            <p>CivicActions {{ page.title }} news:</p>
+            <div class="card-deck">
+                {% for post in site.posts limit:3 %}
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/{{ post.feat-img }}"></a>
+                        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <p class="card-text">{{ post.date | date: "%B %-d, %Y"}}</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <p><a class="btn" href="/news">News &raquo;</a></p>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if guide != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Guide</h2>
+            <p>{{ page.title }} resources in the <a href="/guide">Digital Government Services Guide</a>:</p>
+            <div class="card-deck">
+                {% for page in guide %}
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ page.url }}" class="stretched-link">{{ page.icon }}</a>
+                        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                        <p>{{ page.description }}</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <p><a class="btn" href="/guide">Guide &raquo;</a></p>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if help != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Help</h2>
+            {% for page in help %}
+            {% assign author_data = site.people | where:"author", page.author | first %}
+            <article>
+                <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                <p class="text-muted">Posted: {{ page.date | date: "%B, %-d %Y"}} &middot; <a href="{{ author_data.url }}">{{ author_data.name }}</a></p>
+            </article>
+            {% endfor %}
+            <p><a class="btn" href="/help">Help &raquo;</a></p>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if handbook != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Handbook</h2>
+            <p>{{ page.title }} in the <a href="/handbook">CivicActions handbook</a>:</p>
+            <ul>
+                {% for page in handbook %}
+                <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+            </ul>
+            <p><a class="btn" href="/handbook">Handbook &raquo;</a></p>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if tools != empty %}
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Tools</h2>
+            <p>CivicActions {{ page.title }} tools.</p>
+            <div class="card-deck">
+                {% for tool in tools %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ tool.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/tools/{{ tool.image }}"></a>
+                        <h3><a href="{{ site.baseurl }}{{ tool.url }}">{{ tool.name }}</a></h3>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <p><a class="btn" href="/tools">Tools &raquo;</a></p>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% if communities != empty %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Communities</h2>
+            <p>{{ page.title }} communities CivicActions supports.</p>
+            <div class="card-deck">
+                {% for community in communities %}
+                <div class="card">
+                    <div class="card-body">
+                        <a href="{{ community.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/communities/{{ community.image }}"></a>
+                        <h3><a href="{{ site.baseurl }}{{ community.url }}">{{ community.name }}</a></h3>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <p><a class="btn" href="/communities">Communities &raquo;</a></p>
+        </div>
+    </div>
+</div>
+{% endif %}

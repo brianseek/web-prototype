@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/examples/starter-template/ -->
+<html lang="en">
+
+<head>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="This training provides government leaders with strategies, tools, and best practices for effectively leading in a distributed (remote/telework) model.">
+    <meta name="author" content="CivicActions">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://localhost:4000/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://localhost:4000/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4000/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="http://localhost:4000/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://localhost:4000/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Social media post -->
+    <meta property="og:image" content="http://localhost:4000/img/avatar.png">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="630">
+    <meta property="og:title" content="Managing Teleworkers in Government">
+    <meta property="og:description" content="This training provides government leaders with strategies, tools, and best practices for effectively leading in a distributed (remote/telework) model.">
+    <meta property="og:url" content="http://localhost:4000/training/managing-teleworkers-in-government">
+    <title>Managing Teleworkers in Government - Digital government services<!--CivicActions--></title>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link href="http://localhost:4000/css/style.css" rel="stylesheet">
+    </script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<a href="#main-content" class="sr-only sr-only-focusable skip-link">
+    Skip to main content
+</a>
+
+<nav class="navbar navbar-dark navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="http://localhost:4000/"><img src="http://localhost:4000/img/logo.png" width="145" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-md-auto">
+                
+                <li class="nav-item "><a href="/services" class="nav-link">Services</a></li>
+                
+                <li class="nav-item "><a href="/people" class="nav-link">People</a></li>
+                
+                <li class="nav-item "><a href="/resources" class="nav-link">Resources</a></li>
+                
+                <li class="nav-item "><a href="/news" class="nav-link">News</a></li>
+                
+                <li class="nav-item "><a href="/contact" class="nav-link">Contact</a></li>
+                
+                <li class="nav-item "><a href="/search" class="nav-link"><i class="fas fa-search"></i></a></li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<main id="main-content">
+    <div class="jumbotron ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <p>
+                        Training
+                    </p>
+                    
+                    <h1 class="display-4">Managing Teleworkers in Government</h1>
+                </div>
+                <div class="col-md-8">
+                    
+                    <p class="lead">
+</p>
+                    
+                    <div class="col-md-4">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    
+                    
+                    
+                    
+                    
+                    <div class="people people-jumbotron">
+                        <a href=""><img src="http://localhost:4000/img/people/" alt="" title=""></a> <a href=""></a>, 
+                    </div>
+                    
+                    
+                    
+                    <div class="request">
+                        <p><a class="btn btn-primary btn-lg" href="/request" role="button">Request training</a> &nbsp; Questions? <a href="http://localhost:4000/contact">Contact us</a></p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container section">
+    <div class="row">
+        <div class="col-md-8">
+            
+            
+            <a class="header-perm-link" href="#training" title="Permalink">
+    <h2 id="training">
+        About this training
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+            <p>This training provides government leaders with strategies, tools, and best practices for effectively leading in a distributed (remote/telework) model. The focus is on the unique challenges of leading, mentoring, and managing while physically apart from your team.</p>
+
+            
+            
+            <a class="header-perm-link" href="#prerequisites" title="Permalink">
+    <h2 id="prerequisites">
+        Prerequisites
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+            
+            <p>Training - “Effective Telework in Distributed Government Teams”</p>
+
+            
+            
+            
+            <a class="header-perm-link" href="#who-it-s-for" title="Permalink">
+    <h2 id="who-it-s-for">
+        Who it's for
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+            <ul>
+                
+                <li><p>Anyone leading or managing a remote / teleworking government team</p>
+</li>
+                
+            </ul>
+            
+            
+            <a class="header-perm-link" href="#what-you-learn" title="Permalink">
+    <h2 id="what-you-learn">
+        What you learn
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+            <ul class="fa-ul">
+                
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> <p>Tools and processes to promote transparency and accountability</p>
+</li>
+                
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> <p>Strategies for recruiting, interviewing, and onboarding while teleworking</p>
+</li>
+                
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> <p>Handling one-on-one calls and reviews</p>
+</li>
+                
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> <p>Tactics for helping staff address issues of isolation and loneliness</p>
+</li>
+                
+                <li><span class="fa-li"><i class="fas fa-check"></i></span> <p>Fostering team culture and trust while physically apart</p>
+</li>
+                
+            </ul>
+            
+            
+            <a class="header-perm-link" href="#format" title="Permalink">
+    <h2 id="format">
+        Format
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+            <ul>
+                
+                <li><p>Four 90-minute virtual sessions, over a 4-week period</p>
+</li>
+                
+                <li><p>Includes hands-on exercises and “homework” to practice concepts and techniques</p>
+</li>
+                
+                <li><p>Q &amp; A to address your agency’s specific concerns</p>
+</li>
+                
+            </ul>
+            
+            
+            <a class="header-perm-link" href="#follow-up" title="Permalink">
+    <h2 id="follow-up">
+        Follow-up
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+            <ul>
+                
+                <li><p>Coaching support - <a href="/coaching/working-and-leading-in-distributed-teams">Working and Leading in Distributed Teams</a></p>
+</li>
+                
+                <li><p>Train your trainers - <a href="/consulting/designing-and-running-telework-training-courses">Designing and Running Telework Training Courses</a></p>
+</li>
+                
+            </ul>
+            
+            
+            <a class="header-perm-link" href="#cost" title="Permalink">
+    <h2 id="cost">
+        Cost
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+            <p>$20,000 for up to 20 participants</p>
+
+            
+            <h2>Contracting vehicles</h2>
+            <ul>
+                <li>DUNS: 022112930</li>
+                <li>CAGE Code: 65FK1</li>
+                <li>NAICS Codes: 519190, 541511, 541512, 541513, 541519</li>
+                <li>Standard Product Code: 80101507</li>
+                <li>GSA Schedule 70 #GS-35F-337BA</li>
+                <li>CMAS</li>
+                <li>UK G Cloud 10</li>
+                <li>Mississippi Agile Vendor Pool</li>
+                <li>California Agile Vendor Pool</li>
+                <li>Certified Small Business (Micro), State of California DGS, No. 2003474</li>
+                <li>Incorporated: 2004 (California)</li>
+            </ul>
+        </div>
+        <div class="col-md-4 details">
+            <div class="alert-info">
+                <h2>Topics</h2>
+                <ul class="nav nav-pills">
+                    
+                    <li class="nav-item"><a href="/topics/communications">Communications</a></li>
+                    
+                    <li class="nav-item"><a href="/topics/culture">Culture</a></li>
+                    
+                    <li class="nav-item"><a href="/topics/managing">Managing</a></li>
+                    
+                    <li class="nav-item"><a href="/topics/telework">Telework</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container people">
+    <div class="row">
+        <div class="col-md-12">
+            
+            
+            
+            
+            <a class="header-perm-link" href="#instructor" title="Permalink">
+    <h2 id="instructor">
+        Instructor
+        <span class="header-perm-link-icon">
+            <span class="sr-only">Permalink</span><i class="fa fa-link"></i>
+        </span>
+    </h2>
+</a>
+
+        </div>
+    </div>
+    
+    
+    
+    
+    <div class="row">
+        <div class="col-md-2">
+            <div class="people bio">
+                <a href=""><img src="http://localhost:4000/img/people/" alt="" title=""></a>
+                <p class="people-social">
+                    
+                    
+                    
+                </p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <h3></h3>
+            
+        </div>
+    </div>
+    
+</div>
+<div class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a class="btn btn-primary btn-lg" href="/request" role="button">Request training</a> &nbsp; Questions? <a href="http://localhost:4000/contact">Contact us</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-deck">
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fas fa-grin" aria-hidden="true"></i>
+            <h3><a href="/topics/user-experience" class="stretched-link">User Experience</a></h3>
+            <p>Applying human-centered design to make user friendly experiences for your customers and team.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/user-experience" role="button">Browse User Experience</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fas fa-chart-pie" aria-hidden="true"></i>
+            <h3><a href="/topics/open-data" class="stretched-link">Open Data</a></h3>
+            <p>Helping you comply with open data mandates, promote accessibility and use data for good.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/open-data" role="button">Browse Open Data</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fas fa-lock"></i>
+            <h3><a href="/topics/security" class="stretched-link">Security & Compliance</a></h3>
+            <p>Developing systems and best practices for compliance, risk management and disaster recovery.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/security" role="button">Browse Security & Compliance</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fas fa-life-ring"></i>
+            <h3><a href="/topics/support" class="stretched-link">Support</a></h3>
+            <p>Providing empathetic technical support and applying user feedback to make services better.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/support" role="button">Browse Support</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fab fa-drupal"></i>
+            <h3><a href="/topics/drupal" class="stretched-link">Drupal</a></h3>
+            <p>Building fast, stable, well-designed websites and migrating content from legacy systems.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/drupal" role="button">Browse Drupal</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fa fa-dot-circle" aria-hidden="true"></i>
+            <h3><a href="/topics/devops" class="stretched-link">DevOps</a></h3>
+            <p>Establishing culture, technologies, and practices that drive continuous improvement.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/devops" role="button">Browse DevOps</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fas fa-certificate"></i>
+            <h3><a href="/topics/education-services" class="stretched-link">Education Services</a></h3>
+            <p>Helping you gain digital competence with a people-first approach — agile, FOSS, Drupal, and more.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/education-services" role="button">Browse Education Services</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fas fa-tasks"></i>
+            <h3><a href="/topics/quality-assurance" class="stretched-link">Quality Assurance</a></h3>
+            <p>Using modern tools to continuously design and run tests for stable, sustainable systems.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/quality-assurance" role="button">Browse Quality Assurance</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-body icon">
+            <i class="fas fa-flask"></i>
+            <h3><a href="/topics/innovation-lab" class="stretched-link">Innovation Lab</a></h3>
+            <p>Doing the things that are new — from Internet of Things to bespoke solutions and beyond.</p>
+        </div>
+        <div class="card-footer">
+            <a class="btn btn-primary" href="/topics/innovation-lab" role="button">Browse Innovation Lab</a>
+        </div>
+    </div>
+    
+</div>
+        </div>
+    </div>
+</div>
+</main>
+<footer>
+    <div class="container edit text-right">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a href="https://github.com/civicactions/civicactions.github.io/edit/master/_training/managing-teleworkers-in-government.md" class="btn btn-outline-secondary" role="button">Edit this page</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="watch">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Watch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/310174855?color=ffffff" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="col-md-3">
+                    <p>Learn how CivicActions team members feel about their work.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Join Our Team</h2>
+                    <p><a class="btn" href="/careers">Careers &raquo;</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Hire Us</h2>
+                    <p><a class="btn" href="/contact">Contact &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <p>
+                        
+                        
+                        <a href="https://www.linkedin.com/company/civicactions"><i class="fab fa-linkedin"></i></a>
+                        
+                        
+                        <a href="https://twitter.com/civicactions"><i class="fab fa-twitter"></i></a>
+                        
+                        
+                        <a href="https://www.facebook.com/CivicActions"><i class="fab fa-facebook"></i></a>
+                        
+                        
+                        <a href="https://github.com/civicactions"><i class="fab fa-github"></i></a>
+                        
+                        
+                        <a href="http://localhost:4000/news/atom.xml"><i class="fas fa-rss"></i></a>
+                        
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>About</h3>
+                        <ul>
+                            
+                            <li><a href="/contact">Contact</a></li>
+                            
+                            <li><a href="/news">News</a></li>
+                            
+                            <li><a href="/people">People</a></li>
+                            
+                            <li><a href="/careers">Careers</a></li>
+                            
+                            <li><a href="/handbook">Handbook</a></li>
+                            
+                            <li><a href="/guide">Guide</a></li>
+                            
+                            <li><a href="/talks">Talks</a></li>
+                            
+                            <li><a href="/tools">Tools</a></li>
+                            
+                            <li><a href="/communities">Communities</a></li>
+                            
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Work</h3>
+                        <ul>
+                            
+                            <li><a href="/capabilities">Capabilities</a></li>
+                            
+                            <li><a href="/approach">Approach</a></li>
+                            
+                            <li><a href="/services">Services</a></li>
+                            
+                            <li><a href="/case-studies">Case Studies</a></li>
+                            
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Etc</h3>
+                        <ul>
+                            
+                            <li><a href="/topics">Topics</a></li>
+                            
+                            <li><a href="/conduct">Code of conduct</a></li>
+                            
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

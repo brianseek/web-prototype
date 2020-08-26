@@ -1,0 +1,11 @@
+<div class="card-deck">
+    {% for author in site.people limit:3 %}
+    <div class="card">
+        <div class="card-body">
+            <a href="{{ author.url }}" class="stretched-link"><img class="" src="{{ site.url }}/img/people/{{ author.image }}" alt="{{ author.name }}"></a>
+            <h3 class="card-title"><a href="{{ author.url }}">{{ author.name }}</a></h3>
+            <p class="card-text">{{ author.role }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

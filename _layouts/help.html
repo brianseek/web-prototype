@@ -1,0 +1,112 @@
+---
+layout: wrapper
+---
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-4">{{ page.title }}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Question</h2>
+            <p></p>
+            {{ page.question | markdownify }}
+            <p class="text-muted">(Posted: {{ page.date | date: "%B %-d, %Y, %r %Z"}})</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            {% if page.author %}
+            {% comment %}Loop through all of the authors of the page.{% endcomment %}
+            {% for author in page.author %}
+            {% comment %}"where" creates an array, so using "first" we can pop the first item off of the array of 1.{% endcomment %}
+            {% assign author_data = site.people | where:"author", author | first %}
+            <div class="people">
+                <a href="{{ author_data.url }}"><img src="{{ site.url }}/img/people/{{ author_data.image }}" alt="{{ author_data.name }}" title="{{ author_data.name }}"></a>
+                <p class="text-muted byline"><a href="{{ author_data.url }}"> {{ author_data.name }}</a></p>
+            </div>
+            <p class="people-social">
+                {% if author_data.linkedin %}
+                <a href="{{ author_data.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                {% endif %}
+                {% if author_data.github %}
+                <a href="https://github.com/{{ author_data.github }}"><i class="fab fa-github"></i></a>
+                {% endif %}
+                {% if author_data.twitter %}
+                <a href="https://twitter.com/{{ author_data.twitter }}"><i class="fab fa-twitter"></i></a>
+                {% endif %}
+            </p>
+            {% endfor %}
+            {% endif %}
+        </div>
+        <div class="col-md-10">
+            <h2>Answer</h2>
+            {{ content }}
+            <div class="alert alert-secondary" role="alert">
+                <p><strong>Have a question?</strong> <a href="{{ site.url }}/ask">Ask us anything</a>.</p>
+            </div>
+            <h2>Related topics</h2>
+            <div class="post-categories">
+                {% if post %}
+                {% assign categories = post.categories %}
+                {% else %}
+                {% assign categories = page.categories %}
+                {% endif %}
+                <ul class="nav nav-pills">
+                    {% for category in categories %}
+                    <li class="nav-item">
+                        <a href="{{site.baseurl}}/topics/{{category|slugify}}">{{ category | capitalize }}</a></li>
+                    {% unless forloop.last %}&nbsp;{% endunless %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <h2>Related help</h2>
+            {% assign maxRelated = 4 %}
+            {% assign minCommonTags = 1 %}
+            {% assign maxRelatedCounter = 0 %}
+            {% for post in site.help %}
+            {% assign sameTagCount = 0 %}
+            {% assign commonTags = '' %}
+            {% for category in post.categories %}
+            {% if post.url != page.url %}
+            {% if page.categories contains category %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+            {% assign commonTags = commonTags | append: tagmarkup %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% if sameTagCount >= minCommonTags %}
+            <div>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p class="text-muted">{{ post.date | date: "%B, %-d %Y"}}</p>
+            </div>
+            {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+            {% if maxRelatedCounter >= maxRelated %}
+            {% break %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            <p><a href="{{ site.url }}/help">Help</a></p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Services</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {% include services.html %}
+        </div>
+    </div>
+</div>

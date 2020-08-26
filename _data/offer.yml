@@ -1,0 +1,26 @@
+docs_list_title: offer
+docs:
+
+- title: Benefits
+  description: We support your health and well-being by providing 100% company paid medical, disability, and life insurance, plus a generous 401k program.
+  icon: <i class="fas fa-suitcase"></i>
+
+- title: Time Off
+  description: CivicActions' open vacation policy allows team members to take paid time off as needed to feel balanced, productive, and healthy.
+  icon: <i class="far fa-clock"></i>
+
+- title: Family
+  description: We love families! All new parents enjoy paid leave, and we support each other in the ever-shifting responsibilities of work-at-home families.
+  icon: <i class="fas fa-hands-helping"></i>
+
+- title: Connection
+  description: As a primarily remote team, we develop relationships at our annual company retreat, in addition to virtual all-hands calls where people can relax and connect.
+  icon: <i class="fas fa-link"></i>
+
+- title: Growth
+  description: We provide an annual stipend to cover professional development opportunities and encourage intra-team learning and co-working.
+  icon: <i class="fas fa-seedling"></i>
+
+- title: Commmunity
+  description: We are 'open by default' - so your contributions here will be under public license for the benefit of all. We also encourage you to spend 5% of your working time giving back to a community you care about.
+  icon: <i class="far fa-heart"></i>

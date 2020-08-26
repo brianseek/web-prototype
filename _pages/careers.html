@@ -1,0 +1,57 @@
+---
+layout: default
+title: Careers
+description: CivicActions is a place to learn and grow with a talented group of folks who are passionate about transforming the future of government digital services. Join us!
+excerpt: CivicActions is a place to learn and grow with a talented group of folks who are passionate about transforming the future of government digital services. Join us!
+---
+<div class="container section">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Who we are</h2>
+            <p>CivicActions is built on a culture of openness and authenticity. We aren’t afraid to show emotion or be our true selves. We find inspiration in the things that make each of us unique, and we continually share and learn from each other. We are people first, striving to make the world better through our work, but also creating an environment that allows us to care for ourselves and each other.</p>
+            <h2>What we look for</h2>
+            <p>Hiring first-rate people is the most important thing we do for ourselves and our clients. We look for folks with high emotional intelligence and strong communication skills. We also believe that your ability to learn and willingness to grow is more valuable than your existing skill set. We seek self-motivated people who want to change the world and have fun doing it.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>What we offer</h2>
+            <div class="card-deck">
+                {% for item in site.data.offer.docs %}
+                <div class="card">
+                    <div class="card-body">
+                        <p class="icon">{{ item.icon }}</p>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Openings</h2>
+            <div class="card-deck">
+                {% for career in site.data.careers.docs %}
+                <div class="card">
+                    <div class="card-body">
+                        <p class="icon"><a href="{{ site.baseurl }}{{ career.url }}" class="stretched-link"><i class="fas fa-rocket"></i></a></p>
+                        <h3><a href="{{ site.baseurl }}{{ career.url }}" class="stretched-link">{{ career.name }}</a></h3>
+                        <p>{{ career.location }}</p>
+                        <p><em>{{ career.type }}</em></p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+docs_list_title: communities
+docs:
+
+- name: Agile Government Leadership
+  shortname: AGL
+  url: https://www.agilegovleaders.org/
+  image: agl.png
+  description: CivicActions founded and supports Agile Government Leadership, a nonprofit network of government professionals working to bring agile and innovative practices to the public sector.
+  categories:
+    - DevOps
+    - Engineering
+    - Open Data
+    - Product Management
+    - Project Management
+    - Security & Compliance
+    - User Experience
+
+- name: DKAN Open Data Platform
+  shortname: DKAN
+  url: http://getdkan.org/
+  image: dkan.png
+  description: CivicActions maintains DKAN, a community-driven, free and open source open data platform used by governments, organizations, and individuals around the world to leverage data for the public good.
+  categories:
+    - Drupal
+    - Open Data
+
+- name: Digital Services Coalition
+  shortname: DSC
+  url: https://digitalservicescoalition.org/
+  image: digital-services-coalition.png
+  description: CivicActions is a founding member of the Digital Services Coalition, a group of agile design and technology firms collaborating with each other to help government build better services.
+  categories:
+    - DevOps
+    - Engineering
+    - Open Data
+    - Product Management
+    - Project Management
+    - Security & Compliance
+    - User Experience
+
+- name: Drupal Community
+  shortname: Drupal
+  url: https://drupal.org/
+  image: drupal.png
+  description: CivicActions engineers are longtime contributors and active maintainers in Drupal, an open source CMS that is used, built, taught, and collaboratively improved by people all over the world.
+  categories:
+    - Drupal
+
+- name: Data Coalition
+  shortname: Data Coalition
+  url: https://datacoalition.org/
+  image: data-coalition.png
+  description: CivicActions is a member of the Data Coalition, a group of organizations advocating for responsible policies to make government data high-quality, accessible, and useable.
+  categories:
+    - Open Data
+

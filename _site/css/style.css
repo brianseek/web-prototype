@@ -1,0 +1,683 @@
+body {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: -.02em;
+    padding-top: .75rem;
+}
+
+h1,
+h2,
+h3,
+h4 {}
+
+h2 {
+    padding-bottom: .25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Video */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Heading anchor links */
+a.header-perm-link,
+a.header-perm-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 span.header-perm-link-icon,
+h3 span.header-perm-link-icon {
+    position: relative;
+    left: 0.25em;
+    opacity: 0;
+    font-size: 0.75em;
+    -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+    -moz-transition: opacity 0.2s ease-in-out 0.1s;
+    -o-transition: opacity 0.2s ease-in-out 0.1s;
+    transition: opacity 0.2s ease-in-out 0.1s;
+    color: #db1b3b;
+}
+
+h2:hover span.header-perm-link-icon,
+h3:hover span.header-perm-link-icon {
+    opacity: 1;
+}
+
+sup,
+sup a,
+sup a:visited,
+sup a:hover {
+    color: #fff;
+}
+
+blockquote {
+    border-left: 5px solid #f1f1f1;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+}
+
+blockquote p,
+blockquote li {
+    font-size: 1.5rem !important;
+}
+
+/* Lead */
+
+.lead,
+.lead-quote {
+    font-size: 1.5rem;
+}
+
+.lead-quote {
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* News */
+
+.news p,
+.news li {
+    font-size: 1.25rem;
+}
+
+/* Posts */
+
+p.byline {
+    font-size: 1.1rem;
+}
+
+/* Cards */
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem .25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.card-group {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background: #fbfbfb;
+    border: 1px solid #f1f1f1;
+    padding: .5rem .5rem 1rem .5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    background: #f1f1f1;
+}
+
+.card,
+.card a,
+.card a:visited,
+.card a:hover {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.card-footer {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.people .card {
+    padding: 1rem;
+}
+
+/* Links */
+
+a,
+a:visited,
+a:hover {
+    color: #db1b3b;
+}
+
+main a,
+main a:visited {
+    text-decoration: underline;
+}
+
+main a:hover {
+    text-decoration: none;
+}
+
+main p,
+main li {
+    font-size: 1.2rem;
+}
+
+h4 a,
+h4 a:visited {
+    text-decoration: none;
+}
+
+/* Icons */
+
+.icon .fa,
+.icon .fab,
+.icon .fas,
+.icon .far {
+    color: #000000;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.icon p {
+    padding-bottom: 1.5rem;
+    padding-top: .5rem;
+}
+
+/* People */
+
+.jumbotron .people img {
+    margin-right: 10px;
+    max-width: 50px;
+}
+
+.jumbotron.home {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.jumbotron .people p {
+    font-size: 110%;
+}
+
+.people img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    max-width: 100px;
+}
+
+.bio img {
+    margin-top: 2rem;
+}
+
+.people-img img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.jumbotron .people {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.people-social a,
+.people-social a:visited,
+.people-social a:hover {
+    color: #000000;
+    font-size: 1.25rem;
+    margin-right: .75rem;
+}
+
+.jumbotron .people-social a,
+.jumbotron .people-social a:visited,
+.jumbotron .people-social a:hover {
+    color: #000000;
+    font-size: 1.25rem;
+    margin-right: .75rem;
+}
+
+.post-bio {
+    border-top: 1px solid #f1f1f1;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    background: #000000;
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+}
+
+.breadcrumb a,
+.breadcrumb a:visited,
+.breadcrumb a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+    color: #000000;
+}
+
+/* List group */
+
+.list-group {
+    margin-top: 1.5rem;
+}
+
+.list-group a,
+.list-group a:visited {
+    background: #fbfbfb;
+    color: #000000;
+    text-decoration: none;
+}
+
+.list-group a:hover {
+    background: #f1f1f1;
+}
+
+.result li.active a {
+    color: lightgray;
+    cursor: default;
+}
+
+/* Training details */
+
+ul.fa-ul li {
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+}
+
+.request {
+    padding-top: 1rem;
+}
+
+/* Alert info */
+
+.alert-info {
+    background: #fbfbfb;
+    border: 1px solid #f1f1f1;
+    color: #000000;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+.alert-secondary {
+    background: #fbfbfb;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem 0 2rem;
+}
+
+/* Nav pills */
+
+ul.nav-pills {
+    margin-bottom: 1rem;
+}
+
+.nav-pills li {
+    background: #000000;
+    color: #ffffff;
+    display: block;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: .75rem;
+    margin-right: .5rem;
+    padding: .5rem;
+}
+
+.nav-pills li a,
+.nav-pills li a:visited {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.jumbotron .nav-pills li {
+    background: #000000;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: .5rem;
+    padding: .75rem;
+}
+
+/* Dark background */
+
+.bg-dark {
+    background-color: #000000 !important;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3.5rem;
+}
+
+.bg-dark,
+.bg-dark a,
+.bg-dark h2 {
+    color: #ffffff;
+}
+
+.bg-dark ul {
+    margin-bottom: 2rem;
+}
+
+/* Navbar */
+
+.navbar {
+    background: #000000;
+    border-radius: 0;
+}
+
+.navbar-header a,
+.navbar-header a:visited,
+.navbar-header a:hover {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #ffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li.active a,
+.navbar li.active a:visited {
+    color: #ffffff;
+}
+
+
+/* Pagination */
+
+.pagination {
+    margin-top: 3rem;
+}
+
+.pagination a {
+    text-decoration: none;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: #f1f1f1;
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #f1f1f1;
+    border-radius: 0;
+    color: #000000;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.jumbotron {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.jumbotron h1,
+.jumbotron a,
+.jumbotron a:active,
+.jumbotron a:visited {
+    color: #000000;
+}
+
+/* Containers */
+
+.section {
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Guide */
+
+.guide h1 {
+    font-size: 3.25rem;
+    padding-bottom: 1rem;
+}
+
+.guide p.lead {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* Buttons */
+
+.btn-primary,
+a.btn-primary,
+a.btn-primary:active,
+a.btn-primary:hover,
+a.btn-primary:visited,
+a.btn,
+a.btn:visited,
+a.btn:hover {
+    color: #fff !important;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    text-decoration: none !important;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+a.btn-primary:hover {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
+a.btn-outline-secondary,
+a.btn-outline-secondary:visited {
+    background: #fbfbfb !important;
+    border: 1px solid #fbfbfb !important;
+    color: #000000 !important;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+a.btn-outline-secondary:hover {
+    background: #000000 !important;
+    border: 1px solid #fbfbfb !important;
+    color: #ffffff !important;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+/* Watch */
+
+.watch {
+    background: #000;
+    color: #fff;
+    border-top: 1px solid #f1f1f1;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+.watch h2 {
+    color: #fff;
+}
+
+/* Footer */
+
+.edit .btn,
+.edit .btn:hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.subfooter {
+    background: #f1f1f1;
+    margin-top: .5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.footer {
+    background: #000000;
+    color: #ffffff;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+
+.footer a,
+.footer a:visited,
+.footer,
+.footer h2 {
+    color: #ffffff;
+}
+
+.footer a,
+.footer a:visited {
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+.footer .fa,
+.footer .fas,
+.footer .fab {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 1rem 0 0;
+}
+
+.footer p {
+    font-size: 100%;
+    margin: 0;
+    padding: .5em 0;
+}
+
+/* Share */
+
+.share-box {
+    background-color: #000000;
+    padding: .75rem 0 .25rem 0;
+    color: #ffffff;
+}
+
+.share-box a {
+    color: #ffffff;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 3px;
+    padding: 5px 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+
+.f,
+a.f:visited {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+a.f:hover {
+    color: #ffffff;
+}
+
+.t,
+a.t:visited {
+    color: #4099FF;
+    background-color: #4099FF;
+}
+
+a.t:hover {
+    color: #fff;
+}
+
+.g,
+a.g:visited {
+    color: #d34836;
+    background-color: #d34836;
+}
+
+a.g:hover {
+    color: #fff;
+}
+
+.r,
+a.r:visited {
+    color: #ff5700;
+    background-color: #ff5700;
+}
+
+a.r:hover {
+    color: #fff;
+}
+
+.l,
+a.l:visited {
+    color: #0077b5;
+    background-color: #0077b5;
+}
+
+a.l:hover {
+    color: #fff;
+}
+
+.e,
+a.e:visited {
+    color: #444444;
+    background-color: #444444;
+}
+
+a.e:hover {
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+docs_list_title: nav_guide
+docs:
+
+- title: Welcome
+  url: /welcome
+  icon: <i class="fa fa-sun" aria-hidden="true"></i>
+
+- title: DevOps
+  url: /devops
+  icon: <i class="fa fa-dot-circle" aria-hidden="true"></i>
+
+- title: Open Data
+  url: /open-data
+  icon: <i class="fas fa-chart-pie" aria-hidden="true"></i>
+
+- title: Product management
+  url: /product-management
+  icon: <i class="fas fa-atom" aria-hidden="true"></i>
+
+- title: Project management
+  url: /project-management
+  icon: <i class="fas fa-tasks" aria-hidden="true"></i>
+
+- title: Security
+  url: /security
+  icon: <i class="fa fa-lock" aria-hidden="true"></i>
+
+- title: User Experience
+  url: /user-experience
+  icon: <i class="fas fa-grin" aria-hidden="true"></i>

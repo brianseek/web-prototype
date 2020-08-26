@@ -1,0 +1,100 @@
+<footer>
+    <div class="container edit text-right">
+        <div class="row">
+            <div class="col-md-12">
+                <p><a href="{{ site.repo }}edit/{{ site.branch }}/{{ page.path }}" class="btn btn-outline-secondary" role="button">Edit this page</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="watch">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>Watch</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9">
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/310174855?color=ffffff" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <div class="col-md-3">
+                    <p>Learn how CivicActions team members feel about their work.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Join Our Team</h2>
+                    <p><a class="btn" href="/careers">Careers &raquo;</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Hire Us</h2>
+                    <p><a class="btn" href="/contact">Contact &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Connect</h2>
+                    <p>
+                        {% if site.slack %}
+                        <a href="{{ site.slack }}"><i class="fab fa-slack"></i></a>
+                        {% endif %}
+                        {% if site.linkedin %}
+                        <a href="{{ site.linkedin }}"><i class="fab fa-linkedin"></i></a>
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a>
+                        {% endif %}
+                        {% if site.facebook %}
+                        <a href="{{ site.facebook }}"><i class="fab fa-facebook"></i></a>
+                        {% endif %}
+                        {% if site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>
+                        {% endif %}
+                        {% if site.rss %}
+                        <a href="{{ site.url }}/{{ site.rss }}"><i class="fas fa-rss"></i></a>
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h2>About</h3>
+                        <ul>
+                            {% for item in site.data.about.docs %}
+                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Work</h3>
+                        <ul>
+                            {% for item in site.data.work.docs %}
+                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2>Etc</h3>
+                        <ul>
+                            {% for item in site.data.etc.docs %}
+                            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+</body>
+
+</html>

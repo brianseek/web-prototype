@@ -1,0 +1,14 @@
+docs_list_title: nav_work
+docs:
+
+- title: Capabilities
+  url: /capabilities
+  
+- title: Approach
+  url: /approach
+
+- title: Services
+  url: /services
+
+- title: Case Studies
+  url: /case-studies

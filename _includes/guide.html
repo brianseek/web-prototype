@@ -1,0 +1,10 @@
+<div class="card-deck">
+    {% for item in site.data.guide.docs %}
+    <div class="card">
+        <div class="card-body icon">
+            <a href="{{ item.url }}" class="stretched-link">{{ item.icon }}</a>
+            <h3><a href="/guide{{ item.url }}" class="stretched-link">{{ item.title }}</a></h3>
+        </div>
+    </div>
+    {% endfor %}
+</div>
