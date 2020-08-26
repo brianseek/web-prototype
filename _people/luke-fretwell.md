@@ -1,5 +1,4 @@
 ---
-path: /team/luke-fretwell
 type: team
 published: 1
 author: luke-fretwell
