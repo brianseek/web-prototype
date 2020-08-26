@@ -22,7 +22,7 @@ name: CivicActions
 email: contact@civicactions.com
 description: Digital services that work for everyone.
 baseurl: /web-prototype # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://civicactions.github.io/web-prototype/ # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: civicactions
 twitter_username: civicactions
