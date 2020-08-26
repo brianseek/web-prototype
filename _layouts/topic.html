@@ -21,32 +21,32 @@ layout: default
             <div class="card-deck">
                 <div class="card">
                     <div class="card-body">
-                        <h2><a href="/capabilities" class="stretched-link">Capabilities</a></h2></a>
-                        <p class="icon"><a href="/capabilities"><i class="far fa-lightbulb"></i></a></p>
-                        <p>CivicActions <a href="/capabilities">{{ page.title }} capabilities</a>.</p>
+                        <h2><a href="{{ site.baseurl }}capabilities" class="stretched-link">Capabilities</a></h2></a>
+                        <p class="icon"><a href="{{ site.baseurl }}capabilities"><i class="far fa-lightbulb"></i></a></p>
+                        <p>CivicActions <a href="{{ site.baseurl }}capabilities">{{ page.title }} capabilities</a>.</p>
                     </div>
                     <div class="card-footer">
-                        <a class="btn btn-primary" href="/capabilities" role="button">Capabilities</a>
+                        <a class="btn btn-primary" href="{{ site.baseurl }}/capabilities" role="button">Capabilities</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h2><a href="/contracting" class="stretched-link">Contracting</a></h2>
-                        <p class="icon"><a href="/contracting"><i class="fas fa-file-contract"></i></a></p>
-                        <p>CivicActions <a href="/contracting">{{ page.title }} contracting information</a>.</p>
+                        <h2><a href="{{ site.baseurl }}contracting" class="stretched-link">Contracting</a></h2>
+                        <p class="icon"><a href="{{ site.baseurl }}contracting"><i class="fas fa-file-contract"></i></a></p>
+                        <p>CivicActions <a href="{{ site.baseurl }}contracting">{{ page.title }} contracting information</a>.</p>
                     </div>
                     <div class="card-footer">
-                        <a class="btn btn-primary" href="/contracting" role="button">Contracting</a>
+                        <a class="btn btn-primary" href="{{ site.baseurl }}/contracting" role="button">Contracting</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <h2><a href="/contact" class="stretched-link">Contact</a></h2>
-                        <p class="icon"><a href="/contact"><i class="fas fa-plug"></i></a></p>
+                        <h2><a href="{{ site.baseurl }}contact" class="stretched-link">Contact</a></h2>
+                        <p class="icon"><a href="{{ site.baseurl }}contact"><i class="fas fa-plug"></i></a></p>
                         <p><a href="/contact">Contact CivicActions</a> for your {{ page.title }} needs.</p>
                     </div>
                     <div class="card-footer">
-                        <a class="btn btn-primary" href="/capabilities" role="button">Contact</a>
+                        <a class="btn btn-primary" href="{{ site.baseurl }}capabilities" role="button">Contact</a>
                     </div>
                 </div>
             </div>
@@ -63,8 +63,8 @@ layout: default
                 {% for post in site.case-studies %}
                 <div class="card">
                     <div class="card-body icon">
-                        <a href="{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/case-studies/{{ post.feat-img }}"></a>
-                        <h3><a href="{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/case-studies/{{ post.feat-img }}"></a>
+                        <h3><a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
                         <p>{{ post.agency }}</p>
                     </div>
                     <div class="card-footer">
@@ -87,14 +87,14 @@ layout: default
                     {% for page in people %}
                     <div class="card">
                         <div class="card-body">
-                            <a href="{{ page.url }}" class="stretched-link"><img class="" src="{{ site.baseurl }}/img/people/{{ page.image }}" alt="{{ page.name }}"></a>
+                            <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link"><img class="" src="{{ site.baseurl }}/img/people/{{ page.image }}" alt="{{ page.name }}"></a>
                             <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
                             <p>{{ page.location }}</p>
                         </div>
                     </div>
                     {% endfor %}
                 </div>
-                <p><a class="btn" href="/People">People &raquo;</a></p>
+                <p><a class="btn" href="{{ site.baseurl }}/people">People &raquo;</a></p>
             </div>
         </div>
     </div>
@@ -200,8 +200,8 @@ layout: default
                 {% for post in site.posts limit:3 %}
                 <div class="card">
                     <div class="card-body icon">
-                        <a href="{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/{{ post.feat-img }}"></a>
-                        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/{{ post.feat-img }}"></a>
+                        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                         <p class="card-text">{{ post.date | date: "%B %-d, %Y"}}</p>
                     </div>
                     <div class="card-footer">
@@ -209,7 +209,7 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
-            <p><a class="btn" href="/news">News &raquo;</a></p>
+            <p><a class="btn" href="{{ site.baseurl }}/news">News &raquo;</a></p>
         </div>
     </div>
 </div>
@@ -219,13 +219,13 @@ layout: default
     <div class="row">
         <div class="col-md-12">
             <h2>Guide</h2>
-            <p>{{ page.title }} resources in the <a href="/guide">Digital Government Services Guide</a>:</p>
+            <p>{{ page.title }} resources in the <a href="{{ site.baseurl }}/guide">Digital Government Services Guide</a>:</p>
             <div class="card-deck">
                 {% for page in guide %}
                 <div class="card">
                     <div class="card-body icon">
-                        <a href="{{ page.url }}" class="stretched-link">{{ page.icon }}</a>
-                        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                        <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link">{{ page.icon }}</a>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
                         <p>{{ page.description }}</p>
                     </div>
                     <div class="card-footer">
@@ -233,7 +233,7 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
-            <p><a class="btn" href="/guide">Guide &raquo;</a></p>
+            <p><a class="btn" href="{{ site.baseurl }}/guide">Guide &raquo;</a></p>
         </div>
     </div>
 </div>
@@ -250,7 +250,7 @@ layout: default
                 <p class="text-muted">Posted: {{ page.date | date: "%B, %-d %Y"}} &middot; <a href="{{ author_data.url }}">{{ author_data.name }}</a></p>
             </article>
             {% endfor %}
-            <p><a class="btn" href="/help">Help &raquo;</a></p>
+            <p><a class="btn" href="{{ site.baseurl }}/help">Help &raquo;</a></p>
         </div>
     </div>
 </div>
@@ -260,13 +260,13 @@ layout: default
     <div class="row">
         <div class="col-md-12">
             <h2>Handbook</h2>
-            <p>{{ page.title }} in the <a href="/handbook">CivicActions handbook</a>:</p>
+            <p>{{ page.title }} in the <a href="{{ site.baseurl }}/handbook">CivicActions handbook</a>:</p>
             <ul>
                 {% for page in handbook %}
                 <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor %}
             </ul>
-            <p><a class="btn" href="/handbook">Handbook &raquo;</a></p>
+            <p><a class="btn" href="{{ site.baseurl }}/handbook">Handbook &raquo;</a></p>
         </div>
     </div>
 </div>
@@ -289,7 +289,7 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
-            <p><a class="btn" href="/tools">Tools &raquo;</a></p>
+            <p><a class="btn" href="{{ site.baseurl }}/tools">Tools &raquo;</a></p>
         </div>
     </div>
 </div>
@@ -312,7 +312,7 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
-            <p><a class="btn" href="/communities">Communities &raquo;</a></p>
+            <p><a class="btn" href="{{ site.baseurl }}/communities">Communities &raquo;</a></p>
         </div>
     </div>
 </div>
