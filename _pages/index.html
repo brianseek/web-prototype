@@ -55,7 +55,19 @@ action: Contact us
     </div>
     <div class="row">
         <div class="col-md-12">
-            {% include case-studies.html %}
+            <div class="card-deck">
+                {% for post in site.case-studies limit:3 %}
+                <div class="card">
+                    <div class="card-body icon">
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/case-studies/{{ post.feat-img }}"></a>
+                        <h3><a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link">{{ post.title }}</a></h3>
+                        <p>{{ post.agency }}</p>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
     <div class="row">

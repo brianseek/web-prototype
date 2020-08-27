@@ -20,7 +20,7 @@ layout: default
             <h2>Case Studies</h2>
             <p>Projects featuring CivicActions {{ page.title }}.</p>
             <div class="card-deck">
-                {% for post in site.case-studies %}
+                {% for post in case-studies %}
                 <div class="card">
                     <div class="card-body icon">
                         <a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/case-studies/{{ post.feat-img }}"></a>
@@ -43,7 +43,7 @@ layout: default
             <h2>News</h2>
             <p>CivicActions {{ page.title }} news:</p>
             <div class="card-deck">
-                {% for post in site.posts limit:3 %}
+                {% for post in posts limit:3 %}
                 <div class="card">
                     <div class="card-body icon">
                         <a href="{{ site.baseurl }}{{ post.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/{{ post.feat-img }}"></a>
