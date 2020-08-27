@@ -80,6 +80,9 @@ collections:
   topics:
     output: true
     permalink: topics/:title
+  clients:
+    output: true
+    permalink: clients/:title
 
 defaults:
   - scope:
@@ -98,6 +101,11 @@ defaults:
       type: "topics"
     values:
       layout: "topic"
+  - scope:
+      path: ""
+      type: "clients"
+    values:
+      layout: "clients"
 
 paginate: 10
 paginate_path: "/news/page:num/"

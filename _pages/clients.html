@@ -1,0 +1,78 @@
+---
+layout: default
+title: Clients
+description: We work with mission-drive public sector organizations.
+excerpt: We work with mission-drive public sector organizations.
+---
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-deck">
+                {% for page in site.clients %}
+                {% if page.title != 'Template' %}
+                <div class="card clients">
+                    <div class="card-body">
+                        <a href="{{ site.baseurl }}{{ page.url }}" class="stretched-link"><img src="{{ site.baseurl }}/img/clients/{{ page.img }}"></a>
+                        <h5 class="h5"><a href="{{ page.url }}">{{ page.title }}</a></h5>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="container">
+    {% comment %}Gather all of the categories in use from coaching, consulting, and training.{% endcomment %}
+    {% for page in site.coaching %}
+    {% if page.title != 'Template' %}
+    {% assign categories = categories | concat: page.categories %}
+    {% endif %}
+    {% endfor %}
+
+    {% for page in site.consulting %}
+    {% if page.title != 'Template' %}
+    {% assign categories = categories | concat: page.categories %}
+    {% endif %}
+    {% endfor %}
+
+    {% for page in site.training %}
+    {% if page.title != 'Template' %}
+    {% assign categories = categories | concat: page.categories %}
+    {% endif %}
+    {% endfor %}
+
+    {% for post in site.posts %}
+    {% assign categories = categories | concat: post.categories %}
+    {% endfor %}
+
+    {% comment %}Filter the categories down to unique values.{% endcomment %}
+    {% assign categories = categories | uniq %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <div id="archives">
+                {% comment %}Loop through each category.{% endcomment %}
+                {% for category in categories %}
+                {% comment %}Gather the matching pages from coaching, consulting, and training.{% endcomment %}
+                {% assign coaching-pages = site.coaching | where: "categories", category %}
+                {% assign consulting-pages = site.consulting | where: "categories", category %}
+                {% assign training-pages = site.training | where: "categories", category %}
+                {% assign posts = site.posts | where: "categories", category %}
+                {% comment %}Sort the pages alphabetically.{% endcomment %}
+                {% assign pages = coaching-pages | concat: consulting-pages | concat: training-pages | concat: posts | sort: 'title' %}
+                <div class="archive-group">
+                    {% include heading-anchor.html heading=category %}
+                    {% for page in pages %}
+                    <article>
+                        <h3><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h3>
+                        <p class="text-muted">{{ page.service }}{% if page.layout == "post" %}News - {{ page.date | date: "%B, %-d %Y"}}{% endif %}</p>
+                    </article>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+ -->

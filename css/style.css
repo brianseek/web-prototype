@@ -170,6 +170,11 @@ p.byline {
     padding: 1rem;
 }
 
+.clients img {
+    max-width: 150px;
+}
+
+
 /* Links */
 
 a,
