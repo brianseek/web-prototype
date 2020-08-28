@@ -83,6 +83,9 @@ collections:
   clients:
     output: true
     permalink: clients/:title
+  clients:
+    output: true
+    permalink: tools/:title
 
 defaults:
   - scope:
@@ -106,6 +109,11 @@ defaults:
       type: "clients"
     values:
       layout: "clients"
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tools"
 
 paginate: 10
 paginate_path: "/news/page:num/"
